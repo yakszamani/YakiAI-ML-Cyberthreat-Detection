@@ -20,7 +20,7 @@ An advanced machine learning project for User &amp; Entity Behavior Analytics (U
   - K-Nearest Neighbors (KNN)
 
 
-**3.Evaluation Metrics:**
+**3. Evaluation Metrics:**
 
   - Accuracy, Precision, Recall, and F1-Score for model performance.
   - Mean Squared Error (MSE) and R-squared values for prediction reliability.
