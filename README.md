@@ -90,7 +90,8 @@ Feel free to fork this repository and contribute by:
   - Adding new ML models or techniques.
   - Enhancing visualizations and reporting.
 
-✉️ Contact
+## ✉️ Contact
+
 For questions, feedback, or collaboration opportunities, reach out to:
   
   - LinkedIn: [[LinkedIN Profile ](https://www.linkedin.com/in/sodunke-olasunkanmi/)]
