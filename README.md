@@ -31,6 +31,7 @@ An advanced machine learning project for User &amp; Entity Behavior Analytics (U
   - Converted timestamps to numerical formats.
   - Encoded and scaled features for uniformity.
 3. **Model Training:** Trained multiple algorithms on the processed dataset.
+    
 4. **Model Evaluation:**
   - Compared models based on metrics to identify the best-performing algorithm.
   - Visualized predictions with scatter plots and regression lines.
