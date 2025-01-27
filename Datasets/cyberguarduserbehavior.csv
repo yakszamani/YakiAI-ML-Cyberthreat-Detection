@@ -1,0 +1,101 @@
+idx,user_id,timestamp,activity_type,activity_description,label
+0,1045,2023-03-15T08:30:00Z,login,User successfully logged in using credentials,Normal
+1,1045,2023-03-15T08:32:00Z,file_access,User accessed confidential_report.docx,Normal
+2,1045,2023-03-15T08:45:00Z,login,User attempted to log in with incorrect password multiple times,Suspicious
+3,1046,2023-03-15T09:10:00Z,file_download,User downloaded secure_files.zip,Normal
+4,1046,2023-03-15T09:15:00Z,file_modification,User modified system_settings.conf,Normal
+5,1047,2023-03-16T09:00:00Z,login,User logged in using standard credentials,Normal
+6,1047,2023-03-15T09:20:00Z,login,User logged in from an unfamiliar location,Suspicious
+7,1047,2023-03-16T07:45:00Z,login,User logged in from home_office,Normal
+8,1047,2023-03-16T10:12:00Z,login_attempt,User attempted to log in from a new device,Suspicious
+9,1047,2023-03-15T09:30:00Z,login,User logged in from a new device,Normal
+10,1045,2023-03-15T08:30:00Z,login,User successfully logged in using credentials,Normal
+11,1047,2023-03-15T09:20:00Z,software_update,User initiated a system-wide software update,Normal
+12,1072,2023-03-16T01:40:00Z,login,User attempted to log in from a new device with old credentials,Suspicious
+13,1047,2023-03-16T10:00:00Z,software_update,User updated antivirus software to latest version,Normal
+14,1047,2023-03-15T09:30:00Z,system_change,User modified network_config.json,Suspicious
+15,1048,2023-03-16T09:05:00Z,file_access,User accessed public_docs.pdf,Normal
+16,1047,2023-03-15T09:22:00Z,login,User logged in using a shared device,Suspicious
+17,1047,2023-03-16T07:50:00Z,file_access,User accessed invoice_archive.pdf,Normal
+18,1047,2023-03-16T10:14:00Z,file_access,User accessed private_database.csv,Suspicious
+19,1047,2023-03-15T09:35:00Z,file_access,User accessed recent_backup.zip,Normal
+20,1045,2023-03-15T08:32:00Z,file_access,User accessed confidential_report.docx,Normal
+21,1047,2023-03-15T09:25:00Z,email_check,User checked for new emails in the mailbox,Normal
+22,1073,2023-03-16T22:50:00Z,login,User logged in at unusual hours from a new IP address,Suspicious
+23,1048,2023-03-16T11:15:00Z,password_change,User changed their security password after the recommended interval,Normal
+24,1048,2023-03-15T10:00:00Z,file_transfer,User sent encrypted_file_to_unknown_external_email,Suspicious
+25,1049,2023-03-16T09:10:00Z,login,User logged in using standard credentials,Normal
+26,1048,2023-03-15T09:30:00Z,login,User logged in using a public Wi-Fi network,Suspicious
+27,1048,2023-03-16T08:10:00Z,file_access,User opened work_presentation.pptx,Normal
+28,1048,2023-03-16T10:20:00Z,login_attempt,User logged in using a guest account,Suspicious
+29,1048,2023-03-15T10:00:00Z,file_creation,User created report_template.docx,Normal
+30,1045,2023-03-15T08:45:00Z,login,User attempted to log in with incorrect password multiple times,Suspicious
+31,1048,2023-03-15T09:30:00Z,hardware_detection,System detected a new USB device,Normal
+32,1075,2023-03-16T13:00:00Z,file_deletion,User deleted critical_audit_log.txt,Suspicious
+33,1049,2023-03-16T13:40:00Z,email_sync,User synced email account with the corporate server,Normal
+34,1049,2023-03-15T11:00:00Z,login_attempt,User logged in from unusual location in different timezone,Suspicious
+35,1050,2023-03-16T09:15:00Z,email_send,User sent email to colleague@example.com,Normal
+36,1048,2023-03-15T09:35:00Z,file_access,User accessed restricted_areas.docx,Suspicious
+37,1048,2023-03-16T08:15:00Z,email_send,User sent report_email.docx to colleague,Normal
+38,1048,2023-03-16T10:25:00Z,file_upload,User uploaded a large file to an external_share,Suspicious
+39,1048,2023-03-15T10:15:00Z,email_send,User sent out weekly_newsletter.eml,Normal
+40,1046,2023-03-15T09:10:00Z,file_download,User downloaded secure_files.zip,Normal
+41,1048,2023-03-15T09:35:00Z,password_reset,User requested a password reset for their account,Normal
+42,1078,2023-03-16T14:15:00Z,network_access,User accessed shared_drive_private_folders,Suspicious
+43,1050,2023-03-16T14:30:00Z,security_audit,User completed a mandatory security compliance audit,Normal
+44,1050,2023-03-15T11:30:00Z,application_use,User installed unauthorized software on company_laptop,Suspicious
+45,1051,2023-03-16T09:20:00Z,logout,User successfully logged out,Normal
+46,1049,2023-03-15T09:40:00Z,login,User logged in without proper authorization,Suspicious
+47,1049,2023-03-16T09:00:00Z,password_change,User changed password for user_account,Normal
+48,1049,2023-03-16T11:00:00Z,login_attempt,User logged in multiple times in a short period,Suspicious
+49,1049,2023-03-15T10:45:00Z,software_update,User initiated system_update.exe,Normal
+50,1046,2023-03-15T09:15:00Z,file_modification,User modified system_settings.conf,Normal
+51,1049,2023-03-15T09:40:00Z,system_shutdown,User initiated a scheduled system shutdown,Normal
+52,1080,2023-03-16T18:30:00Z,login,User logged in and then immediately logged out,Suspicious
+53,1051,2023-03-16T15:25:00Z,encrypted_data_access,User accessed encrypted data using multi-factor authentication,Normal
+54,1051,2023-03-15T12:00:00Z,system_access,User accessed admin_control_panel without proper credentials,Suspicious
+55,1052,2023-03-16T09:25:00Z,document_edit,User edited meeting_notes.docx,Normal
+56,1049,2023-03-15T09:42:00Z,file_modification,User modified antivirus_settings.conf,Suspicious
+57,1050,2023-03-16T09:30:00Z,document_save,User saved meeting_notes.docx,Normal
+58,1050,2023-03-16T11:30:00Z,file_access,User accessed system_admin_settings.conf,Suspicious
+59,1049,2023-03-15T11:00:00Z,network_change,User connected to guest_wifi_network,Normal
+60,1047,2023-03-16T01:05:00Z,login,User logged in from new device not recognized by system,Suspicious
+61,1050,2023-03-15T09:45:00Z,external_drive_mount,User connected an external hard drive,Normal
+62,1081,2023-03-16T17:45:00Z,file_modification,User modified multiple files in public_documents folder,Suspicious
+63,1052,2023-03-16T16:00:00Z,data_backup,User initiated a routine backup of the project files,Normal
+64,1052,2023-03-15T13:00:00Z,data_export,User initiated export of all user_data_files to removable_drive,Suspicious
+65,1053,2023-03-16T09:30:00Z,email_receive,User received file attachment from admin@example.com,Normal
+66,1050,2023-03-15T09:50:00Z,file_deletion,User deleted backup_files.zip,Suspicious
+67,1050,2023-03-16T09:35:00Z,email_send,User sent feedback_email.pdf to manager,Normal
+68,1050,2023-03-16T11:35:00Z,logout,User logged out and logged back in immediately,Suspicious
+69,1050,2023-03-15T11:30:00Z,print_job,User printed receipt_A4.pdf,Normal
+70,1047,2023-03-16T01:07:00Z,file_access,User accessed confidential_client_info.xlsx,Suspicious
+71,1050,2023-03-15T09:50:00Z,update_notification,System notified user of available system updates,Normal
+72,1082,2023-03-16T16:00:00Z,network_access,User accessed external_devices_folder,Suspicious
+73,1053,2023-03-16T16:45:00Z,network_connection,User reconnected to the office network after lunch break,Normal
+74,1053,2023-03-15T13:30:00Z,device_connection,User connected external_hard_drive with USB_B,Suspicious
+75,1054,2023-03-16T09:35:00Z,document_view,User opened project_proposal.pdf,Normal
+76,1050,2023-03-15T09:55:00Z,login,User logged in with an expired account,Suspicious
+77,1051,2023-03-16T10:05:00Z,file_access,User accessed company_policy.pdf,Normal
+78,1051,2023-03-16T12:15:00Z,file_access,User accessed restricted_document.pdf,Suspicious
+79,1050,2023-03-15T11:45:00Z,password_change,User changed account password,Normal
+80,1048,2023-03-16T14:50:00Z,login,User logged in during off-hours,Suspicious
+81,1051,2023-03-15T09:55:00Z,app_update,User updated their messaging app to the latest version,Normal
+82,1083,2023-03-16T19:20:00Z,network_access,User accessed unknown_external_server,Suspicious
+83,1054,2023-03-16T17:30:00Z,user_training,User attended a mandatory cybersecurity training session,Normal
+84,1054,2023-03-15T14:00:00Z,network_activity,User performed large number of pings to multiple external_IPs,Suspicious
+85,1055,2023-03-16T09:40:00Z,application_update,User updated their security_settings,Normal
+86,1051,2023-03-15T10:00:00Z,login,User logged in after account lockout,Suspicious
+87,1051,2023-03-16T10:10:00Z,email_send,User sent approval_email.docx to team,Normal
+88,1051,2023-03-16T12:20:00Z,file_modification,User modified system_registry.ini,Suspicious
+89,1051,2023-03-15T12:15:00Z,data_export,User exported contacts_v2.csv,Normal
+90,1048,2023-03-16T15:00:00Z,file_access,User accessed employee_directory.csv,Suspicious
+91,1051,2023-03-15T10:00:00Z,file_transfer,User transferred a presentation file to another department,Normal
+92,1085,2023-03-16T20:30:00Z,login,User logged in with previously used credentials,Suspicious
+93,1055,2023-03-16T18:15:00Z,file_sharing,User shared project files with the designated team via secure portal,Normal
+94,1055,2023-03-15T15:00:00Z,email_account,User accessed corporate_email_account from personal_device,Suspicious
+95,1056,2023-03-16T09:45:00Z,system_check,User performed a system_health_check,Normal
+96,1051,2023-03-15T10:05:00Z,file_upload,User uploaded large_files.zip containing executable,Suspicious
+97,1052,2023-03-16T11:20:00Z,login,User logged in using mobile_app,Normal
+98,1052,2023-03-16T13:00:00Z,login_attempt,User tried to log in using email instead of phone,Suspicious
+99,1051,2023-03-15T12:30:00Z,file_upload,User uploaded new_image_library.zip,Normal
