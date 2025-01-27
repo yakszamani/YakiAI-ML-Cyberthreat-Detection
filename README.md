@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ### Actual vs Predicted Behavior Scatter Plot
   - A detailed plot showcasing model predictions against actual labels.
-  - 
+ 
 ### Hyperparameter Tuning Results
   - Comparison of various models and their metrics to identify the best fit
 
