@@ -1,4 +1,4 @@
-# YakiAI User & Entity Behavioral Analytics (UEBA) ML Project
+# YakiAI - User & Entity Behavioral Analytics (UEBA) ML Project
 An advanced machine learning project for User &amp; Entity Behavior Analytics (UEBA) that leverages AI to classify and detect suspicious activities in real-time, enhancing cybersecurity through data-driven insights.
 
 ## 🛡️ Project Overview
