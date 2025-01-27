@@ -6,6 +6,7 @@ An advanced machine learning project for User &amp; Entity Behavior Analytics (U
 - Dataset: A curated dataset capturing various user activities, timestamps, and labels for behavior classification.
 
 ## 📚 Key Features
+
 **1. Data Preprocessing:**
 
   - Timestamp conversion and normalization.
@@ -27,17 +28,19 @@ An advanced machine learning project for User &amp; Entity Behavior Analytics (U
 
 ## 🚀 Workflow
 1. **Data Loading:** Imported user activity logs and structured them for ML training.
+   
 2. **Data Preparation**:
   - Converted timestamps to numerical formats.
   - Encoded and scaled features for uniformity.
+    
 3. **Model Training:** Trained multiple algorithms on the processed dataset.
     
 4. **Model Evaluation:**
   - Compared models based on metrics to identify the best-performing algorithm.
   - Visualized predictions with scatter plots and regression lines.
+    
 5. **Insights & Improvements:**
   - Optimized hyperparameters to reduce overfitting in Random Forest and CatBoost models.
-
 
 
 
@@ -73,8 +76,10 @@ pip install -r requirements.txt
 3. **Run the Notebook**: Open and execute `ML-Project.ipynb` for the full workflow.
 
 ## 📈 Visualizations
+
 ### Actual vs Predicted Behavior Scatter Plot
   - A detailed plot showcasing model predictions against actual labels.
+  - 
 ### Hyperparameter Tuning Results
   - Comparison of various models and their metrics to identify the best fit
 
